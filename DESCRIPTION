@@ -8,5 +8,5 @@ Description: Provides an aggregation estimator of the precision matrix for Gauss
 License: GPL-3
 LazyData: TRUE
 Depends: R (>= 3.0.0)
-Imports: igraph, MASS
+Imports: glasso
 RoxygenNote: 5.0.1
