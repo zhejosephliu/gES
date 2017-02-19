@@ -1,0 +1,12 @@
+Package: gES
+Type: Package
+Title: Graphical exponential screening estimator
+Version: 0.1.0
+Author: Zhe Liu <zheliu@uchicago.edu>
+Maintainer: Zhe Liu <zheliu@uchicago.edu>
+Description: Provides an aggregation estimator of the precision matrix for Gaussian graphical models. This estimator, called graphical Exponential Screening (gES), linearly combines a suitable set of individual estimators with different underlying graphs, and balances the estimation error and sparsity.
+License: GPL-3
+LazyData: TRUE
+Depends: R (>= 3.0.0)
+Imports: igraph, MASS
+RoxygenNote: 5.0.1
