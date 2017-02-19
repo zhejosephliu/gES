@@ -1,5 +1,3 @@
-library(glasso)
-
 # graphical exponential screening estimator
 ges.mcmc <- function(x1, x2, hard.thres = 0.05, num.burn.in = 4000, num.estimation = 4000, plot.mcmc = TRUE) {
     n1 <- nrow(x1)
