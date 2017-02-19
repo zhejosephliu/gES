@@ -7,7 +7,6 @@ Function of MCMC algorithm to compute graphical exponential screening estimator.
 \usage{
 ges.mcmc(x1, x2, hard.thres = 0.05, num.burn.in = 4000, num.estimation = 4000, plot.mcmc = TRUE)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{x1}{
   An \code{n} by \code{p} data matrix used for constructing individual graph estimators, where \code{n} is the sample size and \code{p} is the dimension.
